@@ -34,10 +34,75 @@ h2 {
 input {
     border: none;
     outline: none;
-    width: 80%;
-    padding: 8px;
+    width: 100%;
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 10px;
     border: 1px solid #fff;
     margin-top: 20px;
+}
+
+button {
+    width: 50%;
+    background-color: #debff4;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    font-weight: 800;
+}
+
+button:hover {
+    background-color: #8b48d7;
+}
+
+
+#temp-div p {
+     font-size: 60px;
+     margin-top: -30px;
+}
+
+#weather-info {
+    font-size: 20px;
+
+}
+
+#weather-icon {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 10px;
+    margin-bottom: 0;
+    display: none;
+}
+
+#hourly-forecast {
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly-item {
+    flex: 0 0 auto;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+}
+
+.hourly-item img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.hourly-heading {
+   color: #fff;
+   margin-top: 10px; 
 }
