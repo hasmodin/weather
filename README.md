@@ -1,1 +1,2 @@
-# wheather-
+# Wheather App 
+# Author Hasmodin Ansari
