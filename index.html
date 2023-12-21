@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wheather-container">
-        <h2>Wheather App</h2>
+    <div class="weather-container">
+        <h2>Weather App</h2>
         <input type="text" id="city" placeholder="Enter Your City" required>
         <button onclick="getWheather()">Search</button>
+        <img id ="weather-icon" alt="Weather Icon">
+        <div id="temp-div"></div>
+        <div id="weather-info"></div>
+        <div id="hourly-forecast"></div>
         <script src="app.js"></script>
     </div>
 </body>
