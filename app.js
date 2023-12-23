@@ -6,3 +6,6 @@ const inputBox = document.querySelector("#city");
     
 
 })
+
+
+const inputBox1 = document.querySelector("input");
