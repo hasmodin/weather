@@ -1,3 +1,3 @@
 # Wheather App 
-# Author Hasmodin Ansari
-# This is my fist website on Github.
+# Due Api, i can't completed this project. you can get html and css code.
+
